@@ -4,11 +4,13 @@
              xmlns:local="clr-namespace:XamarinConsultarCP"
              x:Class="XamarinConsultarCP.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
+    <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
+        <Image Source="ctt.png" x:Name="Logo"/>
+        <Entry Placeholder="Insira o CP" PlaceholderColor="#FFBF00" BackgroundColor="White" x:Name="CP"/>
+        <Button Text="Procurar CP" TextColor="White" BackgroundColor="#00416B" x:Name="Btn"/>
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+           VerticalOptions="CenterAndExpand" x:Name="Result"/>
     </StackLayout>
 
 </ContentPage>
